@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Mama Concepts - Hand-Picked Laptops for Seamless Performance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/data.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">TMC</div>
+                    <div class="logo-text">
+                        <h1>Tech Mama Concepts</h1>
+                        <div class="tagline">Hand-picked for seamless performance</div>
+                    </div>
+                </div>
+                <div class="tagline">Your trusted plug for affordable and reliable laptops</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Tech Mama's Curated Laptop Collection</h2>
+                <p>Hand-picked and personally approved by Tech Mama herself, these laptops are designed for seamless performance, reliability, and ease of use.</p>
+                <div class="tech-mama-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Personally approved by Tech Mama</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label>Filter by Brand:</label>
+                    <div class="brand-filters">
+                        <button class="brand-btn active" data-brand="all">All Brands</button>
+                        <button class="brand-btn" data-brand="HP">HP</button>
+                        <button class="brand-btn" data-brand="Dell">Dell</button>
+                        <button class="brand-btn" data-brand="MacBook">MacBook</button>
+                        <button class="brand-btn" data-brand="Lenovo">Lenovo</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <label>Filter by Price:</label>
+                    <input type="range" id="price-range" class="price-range" min="0" max="2000" value="2000">
+                    <div class="price-display">
+                        <span>₦0</span>
+                        <span id="max-price">₦2,000,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Tech Mama's Selection</h2>
+            <div class="products-grid" id="products-container">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>About Tech Mama Concepts</h3>
+                    <p>We are an African tech brand founded by a passionate young woman in her 20s who understands the technology needs of today's generation.</p>
+                    <p>Every laptop in our collection is <span class="mama-highlight">hand-picked and personally approved by Tech Mama herself</span>, ensuring each device meets our high standards for performance, reliability, and user experience.</p>
+                    <p>Our mission is to provide quality computing devices that empower African youth, entrepreneurs, and professionals to achieve their goals without breaking the bank.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Tech Mama</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <strong>WhatsApp</strong><br>
+                            <a href="https://wa.me/2348012345678" style="color: var(--primary);">+234 801 234 5678</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>Email</strong><br>
+                            hello@techmamaconcepts.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <strong>Location</strong><br>
+                            Lagos, Nigeria
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">TMC</div>
+                    <h3>Tech Mama Concepts</h3>
+                </div>
+                <div class="tagline">Hand-picked for seamless performance</div>
+                <div class="copyright">© 2023 Tech Mama Concepts. Proudly African.</div>
+                <div class="african-proud">
+                    <i class="fas fa-globe-africa"></i>
+                    <span>Empowering Africa through technology</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
